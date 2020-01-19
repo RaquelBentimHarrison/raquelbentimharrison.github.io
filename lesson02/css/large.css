@@ -47,7 +47,9 @@ img {
     border-color: #b57365;
     border: 1px 0px 0px 0px;
 }
-
+.headfoot h1 {
+    color: blanchedalmond;
+}
 .headfoot ul li {
     list-style-type: none;
     font-weight: 400;
