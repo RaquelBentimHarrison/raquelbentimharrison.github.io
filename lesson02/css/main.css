@@ -8,23 +8,10 @@ html {
     -webkit-text-size-adjust: 100%;
     /* 2 */
 }
-#content {
-    margin: 0 auto;
-    max-width: 960px;
-}
 
 body {
     margin: 0;
     font-family: 'Roboto Slab', serif;
-}
-
-header,
-footer {
-    background-color: rgba(224, 181, 205, 0.35);
-    color: white;
-    padding: .75em 1.2em .75em 5em;
-    border-radius: 15px;
-    margin: 1em 0;
 }
 
 main {
@@ -212,20 +199,5 @@ template {
 [hidden] {
     display: none;
 }
-
-.profile {
-    float: right;
-    box-shadow: 0px 0px 14px #000;
-    border-radius: 7px;
-}
-
-footer a {
-    color: black;
-    
-}
-footer {
-   color: #000;
-}
-
 
 
