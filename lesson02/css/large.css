@@ -68,7 +68,7 @@ img {
 }
 footer ul a:link, hover, after{
     text-decoration: underline;
-    color: #587340;
+    color: #F3BB55;
 }
 article h2 {
     padding-top: 20px;
@@ -83,7 +83,7 @@ p {
 }
 
 .headfoot {
-    color: white;
+    text-decoration: white;
     background-color: #B57365;
     padding: 3px 3px;
     border-radius: 10px;
