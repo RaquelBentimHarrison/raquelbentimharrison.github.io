@@ -95,6 +95,10 @@ p {
     background-color: #EBBCB0;
     border-radius: 10px;
 }
+.even {
+    background-color: burlywood;
+    border-radius: 10px;
+}
 #primary {
     color: #45965A;
 }
