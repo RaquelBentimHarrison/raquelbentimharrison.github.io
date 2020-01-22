@@ -43,14 +43,6 @@ h2 {
     font-size: 1.5em;
 }
 
-img {
-    width: 300px;
-    margin: 10px 10px 10px 10px;
-    border-style: solid;
-    border-color: #b57365;
-    border: 1px 0px 0px 0px;
-}
-
 .headfoot ul li {
     list-style-type: none;
     font-weight: 400;
@@ -90,15 +82,18 @@ p {
     border-radius: 10px;
     max-width: 100%;
 }
-
-.odd {
-    background-color: #EBBCB0;
-    border-radius: 10px;
+#aud {
+    text-align: left;
 }
 .even {
     background-color: burlywood;
     border-radius: 10px;
 }
+.odd {
+    background-color: #EBBCB0;
+    border-radius: 10px;
+}
+
 #primary {
     color: #45965A;
 }
