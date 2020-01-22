@@ -86,7 +86,7 @@ p {
     text-align: left;
 }
 .even {
-    background-color: burlywood;
+    background-color: rgb(231, 214, 192);
     border-radius: 10px;
 }
 .odd {
