@@ -95,3 +95,18 @@ p {
     background-color: #EBBCB0;
     border-radius: 10px;
 }
+#primary {
+    color: #45965A;
+}
+#secondary01 {
+    color: #7FE398;
+}
+#secondary02 {
+    color: #4A1316;
+}
+#tertiary01 {
+    color: #1B4A26;
+}
+#tertiary02 {
+    color: #96454A;
+}
