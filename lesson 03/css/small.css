@@ -9,7 +9,7 @@ footer {
 }
 
 header {
-    background-color: #7FE398;
+    background-color: #1B4A26;
     /*display: grid;
     grid-template-columns: 100px 1fr;*/
 }
@@ -78,7 +78,7 @@ nav ul {
 
 nav li a {
     display: block;
-    color: #4A1316;
+    color: #1B4A26;
     text-align: center;
     padding: 0.95rem;
     text-decoration: none;
@@ -87,8 +87,8 @@ nav li a {
 }
 
 nav a:hover {
-    background-color: #96454A;
-    color: #4A1316;
+    background-color: white;
+    color: #573548;
 }
 
 ul li {
@@ -100,7 +100,7 @@ img {
 }
 
 footer {
-    background-color: #4A1316;
+    background-color: #207D6C;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
