@@ -15,7 +15,7 @@ header {
 }
 
 .icon {
-    float: right;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
