@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers|Bevan|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab&display=swap');
 body,
 main,
 footer {
@@ -32,12 +32,12 @@ body {
 }
 
 h1 {
-    font-family: 'Bevan', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.6em;
     padding: 1.5em;
     text-align: center;
     margin: 0;
-    background-color: #264653;
+    background-color: #45965A;
     color: white;
 }
 
@@ -45,12 +45,12 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Bevan', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #2A9D8F;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     line-height: 1.7rem;
 }
 
