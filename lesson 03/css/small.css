@@ -14,7 +14,8 @@ header {
     grid-template-columns: 100px 1fr;*/
 }
 
-.icon {
+.logo {
+    float: right;
     width: 100px;
     display: block;
     margin-left: auto;
