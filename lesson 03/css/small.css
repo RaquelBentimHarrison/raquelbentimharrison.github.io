@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bevan|Raleway&display=swap');
 body,
 main,
 footer {
@@ -9,14 +9,16 @@ footer {
 }
 
 header {
-    background-color: #7FE398;
+    background-color: #264653;
     /*display: grid;
     grid-template-columns: 100px 1fr;*/
 }
 
-.logo {
-    float: right;
+.icon {
+    width: 100px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main {
@@ -30,12 +32,12 @@ body {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bevan', sans-serif;
     font-size: 1.6em;
     padding: 1.5em;
     text-align: center;
     margin: 0;
-    background-color: #7FE398;
+    background-color: #264653;
     color: white;
 }
 
@@ -43,12 +45,12 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bevan', sans-serif;
     color: #2A9D8F;
 }
 
 p {
-    font-family:'Roboto Slab', serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.7rem;
 }
 
@@ -57,37 +59,35 @@ a {
 }
 
 a:hover {
-    color: #96454A;
+    color: #F4A261;
 }
 
-#nav {
-    display: inline-block;
+nav {
+    background-color: #E9C46A;
     text-align: center;
-	width: 100%;
-	margin: 0 0 1em 0;
-	padding: 0;
-	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc;  }
-#nav ul {
-	list-style: none;
-	width: 100%;
-	margin: 0 auto;
-	padding: 0; }
-#nav li {
-	float: center; }
-#nav li a {
-	display: block;
-	padding: 8px 15px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #069;
-	border-right: 1px solid #ccc; }
-#nav li:first-child a {
-	border-left: 1px solid #ccc; }
-#nav li a:hover {
-	color: #4A1316;
-	background-color: #fff; }
+}
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: #264653;
+    text-align: center;
+    padding: 0.95rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover {
+    background-color: #E76F51;
+    color: #264653;
+}
 
 ul li,
 ol li {
@@ -154,19 +154,4 @@ td {
 .rgb {
     font-size: 16pt;
     font-family: 'Raleway', sans-serif;
-}
-#primary {
-    color: #45965A;
-}
-#secondary01 {
-    color: #7FE398;
-}
-#secondary02 {
-    color: #4A1316;
-}
-#tertiary01 {
-    color: #1B4A26;
-}
-#tertiary02 {
-    color: #96454A;
 }
