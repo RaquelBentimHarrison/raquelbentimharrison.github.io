@@ -58,11 +58,11 @@ a {
 }
 
 a:hover {
-    color: #F4A261;
+    color: #96454A;
 }
 
 nav {
-    background-color: #E9C46A;
+    background-color: #1B4A26;
     text-align: center;
 }
 
@@ -153,4 +153,19 @@ td {
 .rgb {
     font-size: 16pt;
     font-family: 'Raleway', sans-serif;
+}
+#primary {
+    color: #45965A;
+}
+#secondary01 {
+    color: #7FE398;
+}
+#secondary02 {
+    color: #4A1316;
+}
+#tertiary01 {
+    color: #1B4A26;
+}
+#tertiary02 {
+    color: #96454A;
 }
