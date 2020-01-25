@@ -9,7 +9,7 @@ footer {
 }
 
 header {
-    background-color: #45965A;
+    background-color: #7FE398;
     /*display: grid;
     grid-template-columns: 100px 1fr;*/
 }
@@ -37,7 +37,7 @@ h1 {
     padding: 1.5em;
     text-align: center;
     margin: 0;
-    background-color: #45965A;
+    background-color: #7FE398;
     color: white;
 }
 
