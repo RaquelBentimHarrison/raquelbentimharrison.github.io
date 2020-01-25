@@ -42,7 +42,9 @@ h1 {
     color: white;
 }
 
-h2,
+h2 {
+    color: #96454A;
+}
 h3,
 h4,
 h5 {
