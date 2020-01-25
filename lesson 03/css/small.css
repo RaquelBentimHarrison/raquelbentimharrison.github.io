@@ -89,8 +89,7 @@ nav a:hover {
     color: #264653;
 }
 
-ul li,
-ol li {
+ul li {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -106,51 +105,7 @@ footer {
 
 footer a {
     color: white;
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    padding: 15px;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-}
-
-.site-header-sample {
-    color: white;
-    background-color: #264653;
-    font-size: 40pt;
-    font-family: 'Bevan', sans-serif;
-}
-
-.navigation-sample {
-    color: #264653;
-    background-color: #E9C46A;
-    font-size: 16px;
-}
-
-.footer-sample {
-    color: white;
-    background-color: #264653;
-    font-size: 20pt;
-}
-
-.heading-sample {
-    color: #2A9D8F;
-    font-size: 32pt;
-    font-family: 'Bevan', sans-serif;
-}
-
-.paragraph-sample {
-    font-size: 16pt;
-}
-
+}s
 .rgb {
     font-size: 16pt;
     font-family: 'Raleway', sans-serif;
