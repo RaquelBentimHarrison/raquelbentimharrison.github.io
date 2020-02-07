@@ -18,6 +18,13 @@ body {
 
 /********** Header area ***********/
 /*********************************/
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 11pt;
+    padding: 2em;
+}
 header, footer, main {
   margin: 15px auto;
   padding: 5px;
@@ -118,7 +125,7 @@ h1 {
 
 h2 {
     border-bottom: 2px solid black;
-    font-size: 1rem;
+    font-size: 2rem;
 	margin-bottom: 0.5rem;
 	text-align: center;
 	padding-bottom: .5em;
@@ -126,10 +133,6 @@ h2 {
 }
 
 /* Main area  */
-main {
-  display: flex;
-  flex-flow: column nowrap;
-}
 
 .contentbox {
   display: block;
@@ -139,12 +142,45 @@ main {
   background-color: #ebebd3;
   color: #444;
   font-style: bold;
-  width: 100%;
 }
 
+.herodiv {
+  margin: 10px auto;
+  position: relative;
+}
+.herodiv {
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+}
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 180px;
+	background: radial-gradient(#eee, #207D6C);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .8;
+}
+section.forecast {
+  display: none;
+}
 
-.hero__img {
-  width: 70%;
+article{
+  flex: 1;
+  border: solid 2px #bbbbbb;
+  padding: 20px;
+  display: table;
+  
+} 
+article.articlestory{
+  margin: 0 1.5px;
+  min-width: 100%; /* fill the page in the small/phone view */
+}
+article.articlepic{
+  margin: 0 1.5px;
+  min-width: 100%; /* fill the page in the small/phone view */
 }
 
 footer {
