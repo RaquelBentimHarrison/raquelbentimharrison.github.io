@@ -16,6 +16,14 @@ body {
   background-color: #ebebd3;
 }
 
+aside {
+  display: none;
+  background-color: #f5d547;
+  text-align: center;
+  font-size: 1.0em;
+  padding: .75em;
+  margin-bottom:-10px;
+}
 /********** Header area ***********/
 /*********************************/
 main,
@@ -107,8 +115,8 @@ nav ul li a.active {
   color: #7A207D;
 }
 
-/******* Headline elements *******/
-/*********************************/
+/* Headline elements */
+
 h1, h4, h5, h6 {
 	text-shadow: 1px 1px 0px black;
 }
@@ -142,6 +150,7 @@ h2 {
   background-color: #ebebd3;
   color: #444;
   font-style: bold;
+  min-width: 100%; /* fill the page in the small/phone view */
 }
 
 .herodiv {
@@ -152,6 +161,7 @@ h2 {
   max-width: 90%;
   height: auto;
   margin: auto;
+  min-width: 100%; /* fill the page in the small/phone view */
 }
 .stats {
 	position: absolute;
@@ -191,6 +201,29 @@ article.articlepic{
   min-width: 100%; /* fill the page in the small/phone view */
 }
 
+.footerbox {
+  display: block;
+  background-color:#1B4A26 ;
+  min-width: 100%; /* fill the page in the small/phone view */
+}
+.contactInfo {
+  background-color:#86B0A8;
+  display: block;
+  opacity: .8;
+  top: 25px;
+	right: 180px;
+  text-align: left;
+  padding: 1em;
+  margin-left: 3em;
+  margin-top: 2em;
+  margin-right: 30em;
+  box-shadow: 0 0 30px #111;
+  border-radius: 10%;
+  min-width: 100%; /* fill the page in the small/phone view */
+}
+.map {
+  display: none;
+}
 footer {
 	/* border-radius: 10px; */
   text-align: center;

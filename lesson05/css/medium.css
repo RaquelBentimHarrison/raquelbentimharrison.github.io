@@ -54,3 +54,11 @@ article {
   padding: 20px;
   min-width: 0;
 }
+.contactInfo {
+  float: left;
+}
+.map {
+  display: block;
+  float: right;
+  margin: .5em .5em 2em 0;
+}
