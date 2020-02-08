@@ -24,8 +24,8 @@ aside {
   padding: .75em;
   margin-bottom:-10px;
 }
-/********** Header area ***********/
-/*********************************/
+/* Header */
+
 main,
 footer {
     max-width: 960px;
@@ -36,7 +36,6 @@ footer {
 header, footer, main {
   margin: 15px auto;
   padding: 5px;
-  /* width: 95%; */
 }
 
 header, footer {
@@ -47,11 +46,10 @@ header, footer {
 header {
 	margin-top: 10px;
 	margin-bottom: 0;
-	/* border-radius: 10px 10px 0 0; */
 	display: flex;
 	align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 15px gray;
+  justify-content: center;
+  box-shadow: 0 2px 15px gray;
 }
 
 .headings {
@@ -72,15 +70,13 @@ header {
 }
 
 
-/******* Navigation area *******/
-/*********************************/
+/* Nav */
+
 nav {
-  /* width: 95%; */
-    margin: auto;
-  /* border-radius: 0 0 10px 10px; */
+  margin: auto;
 	background-color: #207D6C;
-    text-align: center;
-    padding: .5em;
+  text-align: center;
+  padding: .5em;
 }
 .navigation {
 	list-style-type: none;
@@ -115,13 +111,13 @@ nav ul li a.active {
   color: #7A207D;
 }
 
-/* Headline elements */
+
 
 h1, h4, h5, h6 {
 	text-shadow: 1px 1px 0px black;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
   font-family: 'Raleway', sans-serif;
   color: #573548; 
 }
@@ -139,8 +135,12 @@ h2 {
 	padding-bottom: .5em;
 
 }
+h4 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
 
-/* Main area  */
+/* Main */
 
 .contentbox {
   display: block;
@@ -202,23 +202,31 @@ article.articlepic{
 }
 
 .footerbox {
-  display: block;
+  margin-top: 10px;
+	margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+  justify-content: center;
+  /* display: block; */
   background-color:#1B4A26 ;
   min-width: 100%; /* fill the page in the small/phone view */
 }
 .contactInfo {
-  background-color:#86B0A8;
-  display: block;
-  opacity: .8;
-  top: 25px;
+  display: inline-flex;
+  flex-direction: column;
+  /* background-color:#86B0A8; */
+  /* display: block; */
+  /* opacity: .8; */
+  /* top: 25px;
 	right: 180px;
   text-align: left;
-  padding: 1em;
-  margin-left: 3em;
+  padding: 1em; */
+  /* margin-left: 3em;
   margin-top: 2em;
-  margin-right: 30em;
-  box-shadow: 0 0 30px #111;
-  border-radius: 10%;
+  margin-right: 30em; */
+  /* box-shadow: 0 0 30px #111;
+  border-radius: 10%; */
   min-width: 100%; /* fill the page in the small/phone view */
 }
 .map {

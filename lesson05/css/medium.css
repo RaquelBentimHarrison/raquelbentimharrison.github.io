@@ -55,10 +55,11 @@ article {
   min-width: 0;
 }
 .contactInfo {
-  float: left;
+  /* float: left; */
 }
 .map {
-  display: block;
-  float: right;
+  display: inline-flex;
+  flex: 2;
+  float: right; 
   margin: .5em .5em 2em 0;
 }
