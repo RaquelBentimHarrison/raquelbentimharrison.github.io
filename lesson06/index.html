@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.o"/>
+    <title>Way Out There - Weather Updates</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>
+    <header>
+      <picture class="header__logo">
+        <img class="header__img" src="images/logo1.png" alt="logo"/>
+      </picture>
+      <section class="headings">        
+        <h1 class="header__titleText">Way Out There</h1>
+        <div class="header__subText">Weather Updates</div>
+      </section>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="hamburger">&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="preston-4.html" class="active">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Preston</h2>
+      <div class="contentbox">
+        <div class="herodiv">
+            <figure class="myphoto"></figure>
+                <img src="images/cit230_image_franklinOriginal.jpeg" alt="hero image" sizes="80vw"
+                    srcset="images/cit230_image_franklin200.png 200w,
+                            images/cit230_image_franklin500.png 500w,
+                            images/cit230_image_franklin800.png 800w,
+                            images/cit230_image_franklin1100.png 1100w,
+                            "     
+                >
+            </figure>
+          <section class="stats">
+            <h2>Weather Summary</h2>
+            <p>Currently: Sunny</p>
+            <p>High: <span id= "temp"> 49</span></p>
+            <p>Wind Chill: <span id= "windchill">  </span></p>
+            <p>Humidity: 75%</p>
+            <p>Wind Speed: <span id= "wind"> 5 </span>mph</p>
+          </section>
+        </div>
+      </div>
+      <div class="contentbox">
+        <section class="forecast">
+          <h2>Plan Ahead</h2>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="5">5-Day Forecast</th>
+              </tr>
+              <tr>
+                <td>Day 1</td>
+                <td>Day 2</td>
+                <td>Day 3</td>
+                <td>Day 4</td>
+                <td>Day 5</td>
+              </tr>
+              </thead>
+            <tbody>  
+              <tr>
+                <td>89&deg;F</td>
+                <td>87&deg;F</td>
+                <td>78&deg;F</td>
+                <td>75&deg;F</td>
+                <td>72&deg;F</td>
+              </tr>
+              </tbody>
+          </table>
+        </section>
+        <img src="#" alt="">
+    </div>
+    <div class="articlebox">
+      <article>
+        <h3>Lorem Ipsum</h3>	
+        <br>
+         <img class="articlepic" src="images/lighthouse.jpg" alt="Lighthouse" width="300" height="300">
+          <p class="articlestory">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum eros in turpis gravida lacinia. Integer nunc orci, faucibus sed vestibulum id, fermentum et mi. Cras sagittis posuere justo, quis scelerisque lacus aliquet non. Nunc dapibus egestas turpis sit amet ultricies. Sed auctor, elit sit amet porttitor elementum, tellus purus pellentesque dui, quis sollicitudin ipsum orci quis velit. Mauris nec nisl ut velit aliquet pulvinar. In facilisis porta cursus. Maecenas et sagittis eros. Maecenas a neque elementum turpis dignissim ornare. Suspendisse fringilla nunc vitae lacinia aliquam. Integer finibus pulvinar nulla in efficitur. Sed sit amet tincidunt diam. Aliquam dapibus augue eu varius condimentum.
+          </p>
+          <p class="articlestory"> Nam volutpat est vitae est porta, ut fermentum enim varius. Fusce neque ipsum, feugiat nec venenatis in, placerat a ex. Maecenas sed aliquam neque, at volutpat elit. Ut eu libero enim. Sed pellentesque id est in varius. Aliquam erat volutpat. In sit amet scelerisque metus. Nunc interdum eros non ante imperdiet mattis. Suspendisse potenti. Nullam cursus metus ex, vel volutpat est rutrum sed. Morbi et quam id massa mollis tincidunt. Ut maximus neque et mauris mattis, a malesuada risus consequat. Vestibulum et metus sodales, commodo metus a, porttitor nisi.
+          </p>    
+          
+      </article>
+        <img src="#" alt="">
+    </div>
+      
+      
+    </main>
+    
+  <footer>
+    <div class="footerbox">
+      
+      <div class="contactInfo">
+        <div class="address">
+          <h4>Contact Us</h4>
+          <p>
+            123 Random St.<br>
+            Preston, ID 83263
+          </p>
+        </div>
+        <div class="email">
+          <p> wayoutthere@gmail.com</p>
+        </div>
+      </div>  
+      <div class="map">
+        <img src="images/map.png" alt="map">
+      </div>
+    </div>
+    <p>
+      <br>
+
+      &copy;Way Out There 2020 | Raquel Bentim
+      <br>
+      <span id="lastMod"></span>
+    </p>      
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/pancake.js"></script>
+  <script src="js/windchill.js"></script>
+  </body>
+</html>

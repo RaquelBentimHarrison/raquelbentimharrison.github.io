@@ -1,0 +1,65 @@
+@media only screen and (min-width: 37.5em) {
+
+    .header__img {
+    width: 150px;
+
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+    align-self: stretch;
+  }
+    
+  .navigation li:first-child {
+    display: none;
+  }
+
+}
+    /* show the 5-day forecast with the medium view and up */
+    section.forecast { 
+      display: inline;
+  }  
+  table, th, td {
+    border: 1px solid #abaa7a;
+    border-collapse: collapse;
+    margin: 0 auto;
+    height: 30px;
+    padding: 10px;
+}
+th {
+    background-color: #1B4A26;
+    color: #ffffff;
+}
+
+article {
+  margin-top: 30px;
+}
+
+.articlepic {
+  float: right;
+  min-width: 0%;
+  margin-right: 10px;
+  margin-left: 15px;
+  border-radius: 10%;
+	box-shadow: 0 0 30px #111;
+}
+.articlestory {
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 20px;
+  min-width: 0;
+}
+.contactInfo {
+  /* float: left; */
+}
+.map {
+  display: inline-flex;
+  flex: 2;
+  float: right; 
+  margin: .5em .5em 2em 0;
+}
