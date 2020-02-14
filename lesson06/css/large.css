@@ -6,12 +6,12 @@
   
     main, footer {
       max-width: 1400px;
-      width: 95%;
+      width: 80%;
       margin: auto;
       height: auto;
     }
-  
-      footer {
+
+    footer {
       border-radius: 10px;
     }
   

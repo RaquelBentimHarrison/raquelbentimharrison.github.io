@@ -95,8 +95,8 @@ nav ul li a {
 }
 
 nav a:hover {
-	background-color: #86B0A8;
-	color: #36454f;
+	background-color: #1B4A26;
+	color: rgb(191, 169, 192);
 }
 
 .navigation li:first-child {
@@ -152,16 +152,19 @@ h4 {
   font-style: bold;
   min-width: 100%; /* fill the page in the small/phone view */
 }
+main figure.myphoto {
+  width: 100%;
 
-.herodiv {
-  margin: 10px auto;
+}
+
+main figure.myphoto img {
+  width: 100%;
+  margin: auto;
   position: relative;
 }
+
 .herodiv {
-  max-width: 90%;
-  height: auto;
-  margin: auto;
-  min-width: 100%; /* fill the page in the small/phone view */
+  position: relative;
 }
 .stats {
 	position: absolute;
@@ -201,40 +204,24 @@ article.articlepic{
   min-width: 100%; /* fill the page in the small/phone view */
 }
 
-.footerbox {
-  margin-top: 10px;
-	margin-bottom: 0;
-  display: flex;
-  flex-direction: column;
-	align-items: center;
-  justify-content: center;
-  /* display: block; */
-  background-color:#1B4A26 ;
-  min-width: 100%; /* fill the page in the small/phone view */
+section.contentboxmap {
+  display: block;
+  margin: 10px auto;
+  border: 1px dotted rgba(0, 0, 0, .7);
+  color: rgb(12, 16, 17);
+  width: 90%;
+  padding: 10px;
+  line-height: 1.1;
+  font-size: 1em;
 }
-.contactInfo {
-  display: inline-flex;
-  flex-direction: column;
-  /* background-color:#86B0A8; */
-  /* display: block; */
-  /* opacity: .8; */
-  /* top: 25px;
-	right: 180px;
-  text-align: left;
-  padding: 1em; */
-  /* margin-left: 3em;
-  margin-top: 2em;
-  margin-right: 30em; */
-  /* box-shadow: 0 0 30px #111;
-  border-radius: 10%; */
-  min-width: 100%; /* fill the page in the small/phone view */
+
+.contact {
+  display: block;
+  float: right;
+  max-width: 30%;
 }
-.map {
+#map {
   display: none;
-}
-footer {
-	/* border-radius: 10px; */
-  text-align: center;
 }
 
 footer a {
@@ -257,3 +244,8 @@ footer p {
 	display: block;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
