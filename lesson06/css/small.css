@@ -149,7 +149,7 @@ h4 {
   padding: 15px;
   background-color: #ebebd3;
   color: #444;
-  font-style: bold;
+  font-weight: bold;
   min-width: 100%; /* fill the page in the small/phone view */
 }
 main figure.myphoto {
