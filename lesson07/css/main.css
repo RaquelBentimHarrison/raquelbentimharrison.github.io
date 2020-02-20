@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab&display=swap');
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    color: #573548;
+}
+
+body, h1, img {
+    text-align: center;
+    background-color: ivory;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    padding: 10px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

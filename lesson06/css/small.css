@@ -204,14 +204,10 @@ article.articlepic{
   min-width: 100%; /* fill the page in the small/phone view */
 }
 
-section.contentboxmap {
+main section.contentboxmap {
   display: block;
-  margin: 10px auto;
-  border: 1px dotted rgba(0, 0, 0, .7);
   color: rgb(12, 16, 17);
-  width: 90%;
-  padding: 10px;
-  line-height: 1.1;
+  width: 100%;
   font-size: 1em;
 }
 

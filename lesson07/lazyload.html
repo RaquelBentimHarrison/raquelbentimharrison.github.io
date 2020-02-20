@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Week 07</title>
+    <meta name="description" content="Lazy Images" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Progressive Loading of Images</h1>
+    </header>
+    <main>
+      <picture>
+        <img
+          src="https://via.placeholder.com/300x400?text=Placeholder"
+          data-src="images/butterfly300x400.png"
+          alt="Butterfly"
+        />
+        
+      </picture>
+      <br />
+      <picture>
+        <img
+          src="https://via.placeholder.com/300x400?text=Placeholder"
+          data-src="images/cyclist300x400.png"
+          alt="Cyclist"
+        />
+      </picture>
+      <br />
+      <picture>
+        <img
+          src="https://via.placeholder.com/300x400?text=Placeholder"
+          data-src="images/nature300x400.png"
+          alt="Deer"
+        />
+      </picture>
+      <br />
+      <picture>
+        <img
+          src="https://via.placeholder.com/300x400?text=Placeholder"
+          data-src="images/sunset300x400.png"
+          alt="Ship"
+        />
+      </picture>
+      <br />
+      <picture>
+        <img
+          src="https://via.placeholder.com/300x400?text=Placeholder"
+          data-src="images/woman300x400.png"
+          alt="Woman walking"
+        />
+      </picture>
+      <br />
+      <picture>
+        <img
+          src="images/placeholder.jpg"
+          data-src="images/yoga300x400.png"
+          alt="Yoga Monk"
+        />
+      </picture>
+    </main>
+    <script src="js/lazyloading.js"></script>
+  </body>
+</html>
