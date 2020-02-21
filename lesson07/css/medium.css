@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em) {
+
+  .gallery {
+    max-width: 700px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  figure {
+    font-size: 1.25em;
+  }
+
+  .header__img {
+    width: 150px;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+    align-self: stretch;
+  }
+    
+  .navigation li:first-child {
+    display: none;
+  }
+
+}
+  

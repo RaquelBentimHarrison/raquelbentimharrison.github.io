@@ -1,0 +1,36 @@
+@media only screen and (min-width: 64em) {
+
+  .gallery {
+    max-width: 1024px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+    
+  figure {
+    font-size: 1.5em;
+  }
+
+  figure:hover {
+    box-shadow: 0 0 30px rgb(43, 41, 41);
+    border-radius: 10px;
+  }
+
+  .header__img {
+    width: 200px;
+  }
+  
+  main, footer {
+    max-width: 1400px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+  }
+
+  footer {
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+}
